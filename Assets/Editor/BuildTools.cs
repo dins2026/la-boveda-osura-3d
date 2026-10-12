@@ -2,13 +2,6 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-/// <summary>
-/// Herramientas del editor (menú "Boveda"):
-///   1) Crea la escena con un único GameObject (GameBootstrap) y la agrega a Build Settings.
-///   2) Genera el Build de Windows (.exe).
-/// BuildWindowsCI se usa para compilar en la nube con GitHub Actions (sin Unity instalado).
-/// Este archivo debe estar en una carpeta llamada "Editor".
-/// </summary>
 public static class BuildTools
 {
     const string ScenePath = "Assets/Scenes/Boveda.unity";
