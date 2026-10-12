@@ -1,11 +1,6 @@
 using UnityEngine;
 
-/// <summary>
-/// Audio 100% procedural: todos los sonidos se generan por código (no hay archivos de audio).
-///  - Ambiente: drone grave en loop.
-///  - Tensión: capa que sube de volumen cuando el guardia te persigue.
-///  - Efectos: recoger reliquia, alerta, pasos, puerta, victoria y derrota.
-/// </summary>
+
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance { get; private set; }
