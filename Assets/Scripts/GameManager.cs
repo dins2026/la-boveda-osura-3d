@@ -4,11 +4,6 @@ using UnityEngine.SceneManagement;
 
 public enum GameState { Menu, Playing, Won, Lost }
 
-/// <summary>
-/// Controla el flujo del juego: Menú -> Jugando -> Victoria / Derrota.
-/// Guarda las reliquias recolectadas y el tiempo restante.
-/// Los demás sistemas (UI, audio, puerta) se suscriben a sus eventos.
-/// </summary>
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
