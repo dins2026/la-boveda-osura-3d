@@ -1,10 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// Puerta de salida: está bloqueada (roja) hasta reunir todas las reliquias.
-/// Entonces se abre (baja al suelo) y al entrar a la zona de salida el jugador gana.
-/// Este script va en la zona (trigger) que está detrás de la puerta.
-/// </summary>
 public class ExitDoor : MonoBehaviour
 {
     public Transform door;
