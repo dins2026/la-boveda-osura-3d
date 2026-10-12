@@ -1,12 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Punto de entrada. Se pone en UN solo GameObject de una escena vacía y construye todo el juego:
-/// iluminación y ambientación, nivel (suelo, muros, obstáculos con texturas), reliquias,
-/// puerta de salida, jugador, guardia con IA, polvo ambiental y la interfaz.
-/// Cada sistema vive en su propio script (GameManager, PlayerController, GuardAI, ...).
-/// </summary>
 public class GameBootstrap : MonoBehaviour
 {
     static readonly Color FogColor = new Color(0.03f, 0.04f, 0.08f);
