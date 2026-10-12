@@ -3,12 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// OPTIMIZACIÓN: Object Pooling.
-/// En lugar de crear (Instantiate) y destruir (Destroy) un sistema de partículas cada vez que
-/// se recoge una reliquia, se reutilizan objetos ya creados. Así se evita basura para el
-/// Garbage Collector y los picos de rendimiento.
-/// </summary>
+
 public class ObjectPool
 {
     readonly Queue<GameObject> available = new Queue<GameObject>();
